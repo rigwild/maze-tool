@@ -1,6 +1,7 @@
-bin/*
-obj/*
-*workspace*
-*.layout
-*.cbp
-*.depend
+src/bin/*
+src/obj/*
+src/*workspace*
+src/*.layout
+src/*.cbp
+src/*.depend
+src/*.exe

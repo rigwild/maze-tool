@@ -14,6 +14,10 @@ I added the possibility to generate a random maze with random walls, with the pa
 - Save the maze to a file
 - Load a maze from a file
 
+## Compile
+    cd src/
+    gcc -o maze-tool.exe *.c
+
 ## Known bug(s)
 - When drawing the path from entrance to exit, the path stops if x = 0 or if y = 0. I don't know from where comes this bug from.
 
@@ -23,9 +27,9 @@ As it was part of a school project, there may be bugs. Plus, this repository wil
 ## Screenshot(s)
 Main menu :
 
-![Home menu](https://github.asauvage.fr/img/other/maze-tool.jpg)
+![Home menu](repo-img/maze-tool.jpg)
 
 A random maze with its path. Entrance is "E" in the bottom left-hand corner. Exit is "S" in the top right-hand corner.
 The path is reprensented by X.
 
-![Random maze](https://github.asauvage.fr/img/other/maze-tool2.jpg)
+![Random maze](repo-img/maze-tool2.jpg)
